@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { IoSend } from "react-icons/io5";
-import IconButton from "../../../components/IconButton/IconButton";
-import { NEW_MESSAGE } from "../../../constants";
-import useOnChange from "../../../hooks/useOnChange";
-import { trpc } from "../../../utils/trpc";
-import { ChatState } from "../Chat";
+import IconButton from "../../../../components/IconButton/IconButton";
+import { NEW_MESSAGE } from "../../../../constants";
+import useOnChange from "../../../../hooks/useOnChange";
+import { trpc } from "../../../../utils/trpc";
+import { ChatState } from "../../Chat";
 
 type Props = Pick<
   ChatState,

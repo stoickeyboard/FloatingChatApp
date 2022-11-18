@@ -3,9 +3,9 @@ import { useEffect } from "react";
 import { NEW_MESSAGE } from "../../../constants";
 import { trpc } from "../../../utils/trpc";
 import { ChatState } from "../Chat";
-import MessagesSection from "../MessagesSection/MessagesSection";
-import MessagesTextArea from "../MessagesTextArea/MessagesTextArea";
-import NewConversationUserInput from "../NewConversationUserInput/NewConversationUserInput";
+import MessagesSection from "./MessagesSection/MessagesSection";
+import MessagesTextArea from "./MessagesTextArea/MessagesTextArea";
+import NewConversationUserInput from "./NewConversationUserInput/NewConversationUserInput";
 import MessagesHeader from "./MessagesHeader/MessagesHeader";
 
 export interface MessagesState {

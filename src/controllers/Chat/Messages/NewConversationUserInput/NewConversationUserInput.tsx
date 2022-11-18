@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { PLACEHOLDER_IMAGE } from "../../../constants/";
-import useOnChange from "../../../hooks/useOnChange";
-import { trpc } from "../../../utils/trpc";
-import { ChatState } from "../Chat";
+import { PLACEHOLDER_IMAGE } from "../../../../constants/";
+import useOnChange from "../../../../hooks/useOnChange";
+import { trpc } from "../../../../utils/trpc";
+import { ChatState } from "../../Chat";
 
 type Props = Pick<ChatState, "setCurrentRecipient">;
 

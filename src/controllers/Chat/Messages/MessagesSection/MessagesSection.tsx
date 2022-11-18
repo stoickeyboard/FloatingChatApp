@@ -1,8 +1,8 @@
 import { Message } from "@prisma/client";
 import { useEffect, useRef } from "react";
-import { NEW_MESSAGE, PLACEHOLDER_IMAGE } from "../../../constants";
-import { trpc } from "../../../utils/trpc";
-import { ChatState } from "../Chat";
+import { NEW_MESSAGE, PLACEHOLDER_IMAGE } from "../../../../constants";
+import { trpc } from "../../../../utils/trpc";
+import { ChatState } from "../../Chat";
 
 type Props = Pick<ChatState, "currentRecipient" | "currentConversationId">;
 
